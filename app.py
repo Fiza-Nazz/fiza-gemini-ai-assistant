@@ -4,7 +4,8 @@ import os
 
 genai.configure(api_key="AIzaSyASgosNDGxctD1WdaTp1FC107fETsFz2l4")
 
-model = genai.generativemodel("models/gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-1.5-flash")
+
 
 @cl.on_message
 async def main(message: cl.Message):
