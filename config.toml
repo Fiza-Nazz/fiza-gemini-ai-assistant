@@ -1,0 +1,6 @@
+[theme]
+name = "fiza-custom"
+primary_color = "#8B5CF6"
+background_color = "#F3F4F6"
+text_color = "#1F2937"
+font = "Inter"
